@@ -1,3 +1,7 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+}
 .container-fluid {
   padding: 2% 15%;
 }
@@ -130,7 +134,7 @@ em {
 #main-page-imgs {
   height: 200px;
   width: 300px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 .main-page-imgs-text {
   text-align: center;
@@ -142,7 +146,12 @@ em {
 .tiles-h3 {
   font-size: 1.5rem;
   font-family: "Ubuntu", sans-serif;
-  margin-top: 5%;
+  margin-top: 2.5%;
+}
+.tiles-h3-first {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 2.5%;
 }
 .btn-block {
   width: 80%;
@@ -203,10 +212,9 @@ em {
   /* features part */
 
   .col-lg-4 .icon {
-    margin-bottom: 1rem;
     height: 50px;
     width: 100px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   .features-h3 {
     margin-top: 0%;
@@ -229,6 +237,7 @@ em {
   /* features */
   .features-p {
     margin: 0;
+    margin-bottom: 5.5%;
   }
 
   /* Testimonials */
@@ -247,8 +256,7 @@ em {
   }
   #testimonials {
     background-color: black;
-    padding: 3% 15%;
-    padding-top: 7%;
+    padding: 7% 15% 0%;
     margin-bottom: 1%;
     text-align: center;
     color: white;
@@ -265,8 +273,13 @@ em {
   }
   .tiles-h3 {
     font-size: 2rem;
+    margin-top: 4.5%;
   }
-
+  .tiles-h3-first {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 2.25%;
+  }
   /* Footer  */
   #footer {
     margin: 2% 0 0;
