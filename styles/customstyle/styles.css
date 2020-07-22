@@ -1,0 +1,277 @@
+.container-fluid {
+  padding: 2% 15%;
+}
+.carousel {
+  height: 375px;
+}
+h1.intro {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+  margin-bottom: 0em;
+  line-height: 1.2;
+  color: #fff;
+  text-align: left;
+}
+.icon {
+  margin-right: 5px;
+}
+.intro-tag-line {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+}
+.logo {
+  height: 10%;
+  width: 30%;
+}
+#nav-itms {
+  font-family: Montserrat;
+}
+.navbar {
+  padding: 0;
+  text-align: center;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: red;
+}
+.navbar-brand {
+  text-align: left;
+}
+#title {
+  background: black;
+  font-weight: normal;
+  size: 3rem;
+  line-height: 1.5;
+  padding: 0 0 5%;
+}
+
+/* End of navbar and intro */
+/* START OF FEATURES */
+
+#features {
+  padding: 3.5% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.fa-4x {
+  font-size: 4rem;
+}
+.features-h3 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5%;
+}
+.features-p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+.col-lg-4 .icon {
+  color: black; /*	#FFE4C4; #34495E;*/
+  margin-bottom: 1rem;
+  height: 50px;
+  width: 100px;
+  margin-bottom: 3%;
+}
+.col-lg-4 .icon:hover {
+  color: red;
+}
+/* end of features */
+
+/* start of carousel */
+.carousel-testimonials {
+  height: 350px;
+}
+em {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 1.25%;
+}
+/* .Next {
+  margin-right: -144px;
+}
+.Previous {
+  margin-left: -144px;
+} */
+
+#testimonials {
+  background-color: black;
+  padding: 0% 15%;
+  padding-top: 7%;
+  text-align: center;
+  color: white;
+  font-family: Ubuntu, sans-serif;
+}
+.testimonials-h2 {
+  margin-bottom: 5%;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-family: Ubuntu, sans-serif;
+}
+.testimonials-img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+/* END OF CAROUSEL */ /* END OF TESTIMONIALS */
+
+/* START OF TILES ON MAIN PAGE  */
+.main-page-tiles-anchor:hover {
+  text-decoration: none;
+}
+#main-page-tiles {
+  padding: 5% 15% 5%;
+}
+#main-page-imgs {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 4%;
+}
+.main-page-imgs-text {
+  text-align: center;
+  margin: 5%;
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+.tiles-h3 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5%;
+}
+.btn-block {
+  width: 80%;
+  margin: 6.5% auto;
+}
+
+/* End of main-page-tiles  */
+
+/* Start of footer  */
+#footer {
+  padding: 2% 15% 1%;
+  background-color: black;
+  color: white;
+}
+.footer-h3 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.footer-information {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+.youtube:hover {
+  color: #ff0000;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.facebook:hover {
+  color: #3b5998;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.instagram:hover {
+  color: #e1306c;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-facebook-square {
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+  /* features part */
+
+  .col-lg-4 .icon {
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 5%;
+  }
+  .features-h3 {
+    margin-top: 0%;
+  }
+
+  /* navbar and intro part */
+  #nav-itms {
+    font-family: Montserrat;
+    text-align: center;
+  }
+  h1.intro {
+    font-family: "Bebas Neue", cursive;
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+  }
+  /* End of navbar  */
+
+  /* features */
+  .features-p {
+    margin: 0;
+  }
+
+  /* Testimonials */
+
+  /* .Next {
+    margin-right: -50px;
+  }
+  .Previous {
+    margin-left: -50px;
+  } */
+  .testimonials-h2 {
+    margin-bottom: 5%;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-family: Ubuntu, sans-serif;
+  }
+  #testimonials {
+    background-color: black;
+    padding: 3% 15%;
+    padding-top: 7%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  /* main-page-tiles  */
+  .btn-block {
+    width: 40%;
+    margin: 2% auto 0%;
+  }
+  #main-page-tiles {
+    padding: 0% 15%;
+  }
+  .tiles-h3 {
+    font-size: 2rem;
+  }
+
+  /* Footer  */
+  #footer {
+    margin: 2% 0 0;
+  }
+  .main-page-imgs-text {
+    margin: 0%;
+  }
+}
