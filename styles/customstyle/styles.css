@@ -248,6 +248,9 @@ em {
   .Previous {
     margin-left: -50px;
   } */
+  .carousel-main-page {
+    height: 350px;
+  }
   .testimonials-h2 {
     margin-bottom: 5%;
     line-height: 1.5;
@@ -256,7 +259,7 @@ em {
   }
   #testimonials {
     background-color: black;
-    padding: 7% 15% 0%;
+    padding: 4% 15% 1%;
     margin-bottom: 1%;
     text-align: center;
     color: white;
