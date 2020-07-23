@@ -2,11 +2,13 @@
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
 }
-.container-fluid {
-  padding: 2% 15%;
-}
+
 .carousel {
   height: 375px;
+}
+#title-main-page {
+  background-color: black;
+  padding: 0% 15% 2%;
 }
 h1.intro {
   font-family: "Bebas Neue", cursive;
@@ -15,6 +17,7 @@ h1.intro {
   line-height: 1.2;
   color: #fff;
   text-align: left;
+  margin-top: -5px;
 }
 .icon {
   margin-right: 5px;
@@ -49,7 +52,7 @@ h1.intro {
   font-weight: normal;
   size: 3rem;
   line-height: 1.5;
-  padding: 0 0 5%;
+  padding: 1% 15% 0%;
 }
 
 /* End of navbar and intro */
@@ -130,6 +133,7 @@ em {
 }
 #main-page-tiles {
   padding: 5% 15% 5%;
+  background-color: white;
 }
 #main-page-imgs {
   height: 200px;
@@ -207,6 +211,35 @@ em {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+/* General page */
+
+/* Navbar  */
+.general-page-shop-name {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  margin-bottom: 0em;
+  line-height: 1.2;
+  color: lightblue;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.logo-general {
+  width: 15%;
+}
+/* Title  */
+#general-page-title {
+  background-color: black;
+  padding: 0% 15% 0%;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  margin-top: -5px;
+}
+#general-page-h1 {
+  font-size: 4rem;
+}
 
 @media (max-width: 992px) {
   /* features part */
@@ -272,7 +305,7 @@ em {
     margin: 2% auto 0%;
   }
   #main-page-tiles {
-    padding: 0% 15%;
+    padding: 0% 15% 2%;
   }
   .tiles-h3 {
     font-size: 2rem;
@@ -285,9 +318,96 @@ em {
   }
   /* Footer  */
   #footer {
-    margin: 2% 0 0;
+    margin: 0% 0 0;
   }
   .main-page-imgs-text {
     margin: 0%;
+  }
+  .main-page-imgs-text-last {
+    margin: 0 0 5%;
+  }
+
+  /* General Pages  */
+  /* About Us  */
+}
+
+/* ABout US  */
+#general-page-body {
+  background-color: #eeeeee;
+}
+#about-us-body {
+  margin: 0% 15% 1%;
+  padding: 1% 7.5%;
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  background-color: white;
+}
+
+.about-us-welcome {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+}
+.about-us-shop-info {
+  margin-bottom: 2%;
+}
+.about-us-owner-name {
+  font-size: 1.1rem;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  margin-left: 45px;
+}
+.about-us-owner-info {
+  width: 200px;
+  margin: 1% auto;
+  text-align: left;
+}
+.about-us-lorem-ipsum-info {
+  padding: 0 20px;
+}
+hr {
+  display: block;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  width: 50%;
+  border: 1px solid black;
+}
+
+@media (max-width: 992px) {
+  .about-us-welcome {
+    margin-top: -5px;
+    padding-top: 2%;
+  }
+  .about-us-owner-name {
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+  }
+  .about-us-owner-info {
+    text-align: center;
+  }
+  .about-us-shop-info {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+  }
+  .about-us-lorem-ipsum-info {
+    width: 400px;
+    margin: 1% auto 2%;
+  }
+  hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    width: 50%;
+    border: 1px solid black;
   }
 }
