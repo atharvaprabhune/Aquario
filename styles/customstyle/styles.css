@@ -361,12 +361,13 @@ em {
   color: black;
   font-family: "Ubuntu", sans-serif;
   text-align: left;
-  margin-left: 45px;
+  margin-left: 15%;
 }
 .about-us-owner-info {
   width: 200px;
-  margin: 1% auto;
+  margin-top: 1%;
   text-align: left;
+  margin-left: 15%;
 }
 .about-us-lorem-ipsum-info {
   padding: 0 20px;
@@ -391,8 +392,10 @@ hr {
     margin-right: 50px;
     margin-top: 1.5%;
     margin-bottom: 0;
+    margin-left: 45px;
   }
   .about-us-owner-info {
+    margin: 1% auto;
     text-align: center;
     line-height: 1.2;
   }
