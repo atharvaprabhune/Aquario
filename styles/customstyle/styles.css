@@ -343,28 +343,20 @@ em {
   background-color: #eeeeee;
   margin-top: -7.5px;
 }
-#about-us-body-first {
-  margin: 0% 15%;
-  margin-top: -1%;
-  padding: 1% 7.5%;
-  color: #8f8f8f;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.95rem;
-  background-color: white;
-}
-#about-us-body {
-  margin: 0% 15%;
-  padding: 1% 7.5%;
-  color: #8f8f8f;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.95rem;
-  background-color: white;
-}
 .about-us-plantation {
   width: 70%;
   display: inline-block;
   margin: 0 15%;
 }
+.about-us-text-content {
+  margin: 0 15%;
+  padding: 1% 7.5%;
+  background-color: white;
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+
 .about-us-welcome {
   font-size: 1.5rem;
   font-family: "Ubuntu", sans-serif;
