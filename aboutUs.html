@@ -6,7 +6,9 @@
     <!-- boostrap and fonts -->
     <link
       rel="stylesheet"
-      href="styles/bootstrap-4.5.0-dist/css/bootstrap.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/customstyle/styles.css" />
     <link
@@ -20,14 +22,38 @@
     />
 
     <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f0354323bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
     <link
-      rel="stylesheet"
-      href="styles/fontawesome-free-5.14.0-web/css/all.css"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="styles/favicon/apple-touch-icon.png"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="styles/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="styles/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
-
+  <i
+    onclick="topFunction()"
+    id="myBtn"
+    title="Go to top"
+    class="fas fa-arrow-circle-up fa-4x"
+  ></i>
   <body>
-    <section id="title">
+    <section id="title-general-page">
       <nav class="navbar navbar-dark">
         <a class="navbar-brand" id="brand-color" href="index.html"
           ><img
@@ -52,19 +78,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto" id="nav-itms">
             <li class="nav-item">
-              <a class="nav-link" id="nav-itms" href="aboutUs.html"
+              <a class="nav-link active" id="nav-itms" href="aboutUs.html"
                 >About US <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-itms" href="#">Specials</a>
+              <a class="nav-link" id="nav-itms" href="specials.html"
+                >Specials</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" id="nav-itms" href="#">Product Plus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-itms" href="#"
+              <a class="nav-link" id="nav-itms" href="termsAndConditions.html"
                 >Terms and Conditions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-itms" href="productsAndServices.html"
+                >Products and Services</a
               >
             </li>
           </ul>
@@ -77,6 +110,7 @@
     <section id="general-page-title">
       <h1 id="general-page-h1">About US</h1>
     </section>
+
     <!-- End of General Page title  -->
     <section id="general-page-body">
       <img
@@ -89,11 +123,7 @@
         <p class="text-center about-us-shop-info">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          minim veniam.
         </p>
         <hr class="d-lg-none" />
         <hr class="d-none d-lg-block" />
@@ -105,30 +135,94 @@
           We love fish. And we know you do too. Part of our mission at is to
           promote conservation and sustainability efforts so that everyone can
           continue to have these experiences both in their home aquariums and in
-          the wild. We support both aquaculture and sustainable wild collection,
-          and hope to help guide you to make the best decisions possible.
+          the wild. We support both aquaculture and
         </p>
-      </section>
 
-      <!-- Start of shop owner bio  -->
-      <section id="about-us-testimonials-owner">
-        <h2 class="about-us-testimonials-owner-h2 text-center">
-          Meet the Owner !
-        </h2>
-        <img
-          src="styles/images/aboutUs/isaak-karslian-EwHquRpv-9A-unsplash.jpg"
-          height="150px"
-          width="200px"
-          alt="Donald Trump"
-          class="testimonials-img"
-        />
-        <h3 class="about-us-owner-name">Mr. Donald Trump</h3>
-        <p class="about-us-owner-info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        </p>
-      </section>
-      <section class="about-us-text-content">
+        <!-- Start services we provide  -->
+        <section id="about-us-testimonials-owner">
+          <h2 class="about-us-services-title">Services we provide</h2>
+          <div class="row about-us-services-img-container">
+            <div class="col-6">
+              <a href="productsAndServices.html">
+                <img
+                  class="about-us-services-img"
+                  src="styles/images/aboutUs/20-10-20-images-01.jpeg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="productsAndServices.html">
+                <img
+                  class="about-us-services-img"
+                  src="styles/images/aboutUs/Screenshot_20200725-203455-01.jpeg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="productsAndServices.html">
+                <img
+                  class="about-us-services-img"
+                  src="styles/images/aboutUs/images (24)-01.jpeg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="productsAndServices.html">
+                <img
+                  class="about-us-services-img"
+                  src="styles/images/aboutUs/IMG_20200725_123906-04.jpeg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="row text-center">
+          <div class="col-lg-6">
+            <h2 class="about-us-welcome">Conservation</h2>
+            <p class="text-center about-us-lorem-ipsum-info">
+              We love fish. And we know you do too. Part of our mission at is to
+              promote conservation and sustainability efforts so that everyone
+              can continue to have these experiences both in their home
+              aquariums and in the wild. We support both aquaculture and
+              sustainable wild collection, and hope to help guide you to make
+              the best decisions possible.
+            </p>
+          </div>
+          <hr class="d-lg-none" />
+          <div class="col-lg-6">
+            <h2 class="about-us-welcome">Focused on the hobby</h2>
+            <p class="text-center about-us-lorem-ipsum-info">
+              We love fish. And we know you do too. Part of our mission at is to
+              promote conservation and sustainability efforts so that everyone
+              can continue to have these experiences both in their home
+              aquariums and in the wild. We support both aquaculture and
+              sustainable wild collection, and hope to help guide you to make
+              the best decisions possible.
+            </p>
+          </div>
+        </div>
+        <!-- Start of shop owner bio  -->
+        <section id="about-us-testimonials-owner">
+          <h2 class="about-us-testimonials-owner-h2 text-center">
+            Meet the Owner !
+          </h2>
+          <img
+            src="styles/images/aboutUs/isaak-karslian-EwHquRpv-9A-unsplash.jpg"
+            height="150px"
+            width="200px"
+            alt="Donald Trump"
+            class="testimonials-img"
+          />
+          <h3 class="about-us-owner-name">Mr. Donald Trump</h3>
+          <p class="about-us-owner-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          </p>
+        </section>
         <div class="row text-center">
           <div class="col-lg-6">
             <h2 class="about-us-welcome">Conservation</h2>
@@ -199,6 +293,20 @@
       </div>
     </div>
   </body>
-  <script src="styles/bootstrap-4.5.0-dist/js/jQuery.js"></script>
-  <script src="styles/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="app.js"></script>
 </html>

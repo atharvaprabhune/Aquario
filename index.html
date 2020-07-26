@@ -6,7 +6,9 @@
     <!-- boostrap and fonts -->
     <link
       rel="stylesheet"
-      href="styles/bootstrap-4.5.0-dist/css/bootstrap.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/customstyle/styles.css" />
     <link
@@ -20,10 +22,30 @@
     />
 
     <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f0354323bd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- favicon -->
     <link
-      rel="stylesheet"
-      href="styles/fontawesome-free-5.14.0-web/css/all.css"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="styles/favicon/apple-touch-icon.png"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="styles/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="styles/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
 
   <body>
@@ -55,14 +77,21 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-itms" href="#">Specials</a>
+              <a class="nav-link" id="nav-itms" href="specials.html"
+                >Specials</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" id="nav-itms" href="#">Product Plus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-itms" href="#"
+              <a class="nav-link" id="nav-itms" href="termsAndConditions.html"
                 >Terms and Conditions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-itms" href="productsAndServices.html"
+                >Products and Services</a
               >
             </li>
           </ul>
@@ -129,12 +158,17 @@
     </section>
     <!-- Section title contains all first black from navbar to main page carousel -->
     <!-- Features -->
-
+    <i
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="fas fa-arrow-circle-up fa-4x"
+    ></i>
     <section id="features">
       <div class="row">
         <div class="col-lg-4 features">
           <i class="fas icon fa-check-circle fa-4x"></i>
-          <h3 class="features-h3">Import-Quality</h3>
+          <h3 class="features-h3">Product Quality</h3>
           <p class="features-p">
             So easy to use, even your dog could do it.<br />So easy to use, even
             your dog could do it<br />So easy to use, even your dog could do
@@ -152,7 +186,7 @@
         </div>
         <div class="col-lg-4 features">
           <div><i class="fas icon fa-heart fa-4x"></i></div>
-          <h3 class="features-h3">Trustworthy</h3>
+          <h3 class="features-h3">Relation</h3>
           <p class="features-p">
             Find the love of your dog's life or your money back.<br />We have
             all the dogs, the greatest dogs.<br />So easy to use, even your dog
@@ -176,8 +210,8 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h2 class="testimonials-h2">
-              I no longer have to sniff other dogs for love. I've found the
-              hottest Corgi on TinDog. Woof.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod.Lorem ipsum dolor
             </h2>
             <img
               src="styles/images/dog-img.jpg"
@@ -188,8 +222,8 @@
           </div>
           <div class="carousel-item">
             <h2 class="testimonial-text testimonials-h2">
-              My dog used to be so lonely, but with TinDog's help, they've found
-              the love of their life. I think.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod.Lorem ipsum dolor
             </h2>
             <img
               class="testimonials-img"
@@ -334,6 +368,20 @@
       </div>
     </div>
   </body>
-  <script src="styles/bootstrap-4.5.0-dist/js/jQuery.js"></script>
-  <script src="styles/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="app.js"></script>
 </html>
